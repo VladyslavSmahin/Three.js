@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materials</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <form id="myForm">
+        <label for="input_Y">y-coordinate</label>
+        <input type="number" id="input_Y" name="y" placeholder="y-coordinate">
+        <label for="input_X">x-coordinate</label>
+        <input type="number" id="input_X" name="x" placeholder="x-coordinate">
+        <label for="input_Z">z-coordinate</label>
+        <input type="number" id="input_Z" name="z" placeholder="z-coordinate">
+        <button id="generateBtn" type="submit">Generate</button>
+        <button id="explodeBtn" type="button">Explode</button>
+        <button id="collectBtn" type="button">Collect </button>
+    </form>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
